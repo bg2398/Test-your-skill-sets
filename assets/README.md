@@ -17,3 +17,4 @@ THEN I can save my initials and score
 
 ## The following Image shows what the final quiz should look
 
+![image](https://user-images.githubusercontent.com/117424603/214225241-97a916b2-ffaa-4373-a7d3-49b94484da32.png)
