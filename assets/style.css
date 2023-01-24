@@ -1,0 +1,64 @@
+
+#navbar {
+    color: red;
+    
+    }
+    
+
+#mainText {
+    justify-content: center;
+    text-align: center;
+    border-style: double;
+    border-width: 15px;
+    border-color: purple;
+    background-color: grey;
+    color: greenyellow;
+
+}
+
+#startText h1{
+    justify-content: center;
+    text-align: center;
+border-style:double;
+border-width: 20px;
+border-color: purple;
+background-color: grey;
+color: greenyellow;
+
+}
+
+#startButton {
+    padding: 5px 15px;
+    background: fixed;
+    background-color: rgb(7, 7, 7);
+    color: yellowgreen;
+   border: 1px solid rgb(147, 2, 2);
+    outline: none;
+    transition: .6s ease;
+    justify-content: center;
+}
+#startButton:hover{
+    cursor: pointer;
+    background-color: rgb(118, 1, 110);
+    color: rgb(249, 245, 247);
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+    
+}
+
+#a1, #a2, #a3, #a4 {
+    width: 35%;
+    margin: 5px;
+    padding:10px;
+    border-style:dashed ;
+    border: 50;
+    background-color: rgb(251, 114, 114);
+    cursor: pointer;
+}
+
+#initialsText1 {
+    border-style: double;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

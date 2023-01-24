@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think you can code? Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="navbar">
+            <a id="viewHighScore">View high scores!</a>
+            <label id="timer">Timer</label>
+        </nav>
+        <div class="questions">
+            <h1 id="mainText">Coding Quiz Challenge</h1>
+            <div id="answers">
+                <!--Start Menu-->
+                <label id="startText"><h1>Think you can code? Test your knowledge! With every incorrect answer you will loose time to complete the quiz. Goodluck!</h1></label>
+                <button id="startButton">Start Quiz</button>
+                <!--Start Menu-->
+            
+                <!--Question Menu-->
+                <ans>
+                    <div><button id="a1" hidden></button></div>
+                    <div><button id="a2" hidden></button></div>
+                    <div><button id="a3" hidden></button></div>
+                    <div><button id="a4" hidden></button></div>
+                    <!--Question Menu-->
+                </ans>
+                <!--Initials-->
+                <label id="initialsText1" hidden></label>
+                <label id="initialsText2" hidden>Enter Initials: </label>
+                <textarea id="initials" hidden></textarea>
+                <button id="initialsSubmit" hidden>Submit</button>
+                <label id="result" hidden> Correct!</label>
+                <!--Initials-->
+
+                <!--High Score-->
+                <label id="scoreList"></label>
+                <button id="goBack" hidden>Go Back</button>
+                <button id="clearHighScore" hidden>Clear High Score</button>
+                <!--High Score-->
+            </div>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
